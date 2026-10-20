@@ -3,7 +3,7 @@
   "redirects": [
     {
       "source": "/",
-      "has": [{ "type": "host", "value": "major-scale-trainer.vercel.app" }],
+      "has": [{ "type": "host", "value": "major-scale-trainer-murex.vercel.app" }],
       "destination": "https://fretworks.vercel.app/major",
       "permanent": true
     }

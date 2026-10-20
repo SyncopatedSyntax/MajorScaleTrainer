@@ -1,0 +1,15 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    {
+      "source": "/",
+      "has": [{ "type": "host", "value": "major-scale-trainer.vercel.app" }],
+      "destination": "https://fretworks.vercel.app/major",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    { "source": "/major/(.*)", "destination": "/$1" },
+    { "source": "/major", "destination": "/" }
+  ]
+}

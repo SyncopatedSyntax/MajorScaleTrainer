@@ -6,4 +6,3 @@ export const TOOL_KEY = 'major';       // @fretworks/design registry key
 export const PREFIX = 'mj_';           // localStorage prefix (sync + backup use it)
 export const ACCENT = '#22d3ee';       // sky cyan
 export const APP_NAME = 'Major Scale Trainer';
-export const ICON_TEXT = 'maj';
